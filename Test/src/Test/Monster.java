@@ -10,7 +10,6 @@ public class Monster {
             tab[i] = new skeleton(50,"skeleton_" + i,2);
         }
         for (int i =0; i<tab.length;i++){
-            if (tab[i] instanceof skeleton)
             System.out.println(i+". "+ tab[i]+ "\n");
         }
     }
